@@ -10,18 +10,12 @@ If you don't believe me, read the code (it's very short at 48 lines of code!).
 ```
 
 ## Installing deps
-If you have poetry, you can do:
-```
-poetry install
-```
-and
-```
-poetry shell
-```
-in order to get a virtualenv with everything you need installed.
-Alternatively, you can run
 ```
 pip install -r requirements.txt
+```
+or 
+```
+poetry install
 ```
 
 ## Usage
