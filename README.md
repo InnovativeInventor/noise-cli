@@ -10,6 +10,7 @@ If you don't believe me, read the code (it's very short at 48 lines of code!).
 ```
 
 `noise-cli` supports emojis and most unicode (excluding certain whitespace characters, such as `\n`).
+As per usual, contributions are welcome.
 
 ## Installing deps
 ```
@@ -78,3 +79,6 @@ initiator: mmn6+ZuUoOeG0AizDH7/FX2QlMGrl0xmt8IxnDWpDahZSBibrrXXHIY/TX0VXZN2Qk/hy
 responder: GvI8fdLTVq89f7oIqUk1sh9dlw==
 ```
 (in other words, it'd look like properly encrypted gibberish!)
+
+## License
+Public domain (The Unlicense).
