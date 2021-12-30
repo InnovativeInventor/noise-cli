@@ -10,21 +10,21 @@ If you don't believe me, read the code (it's very short at 48 lines of code!).
 ```
 
 `noise-cli` supports emojis and most unicode (excluding certain whitespace characters, such as `\n`).
-As per usual, contributions are welcome.
-
-## Installing deps
-```
-pip install -r requirements.txt
-```
-or 
-```
-poetry install
-```
 
 ## Usage
 To initiate a message, just run: ```python initiator.py```
 If you're recieving a message, run: ```python responder.py```
 Follow the prompts to establish a secure channel over mediums like SMS and Discord.
+To install, run 
+```
+pip install -r requirements.txt
+```
+
+or
+
+```
+poetry shell
+```
 
 ## Example usage
 Suppose you have the following conversation with someone:
@@ -69,7 +69,7 @@ Response to encrypt: yep
          Encrypted message (send this): GvI8fdLTVq89f7oIqUk1sh9dlw==
 ```
 
-From an eavesdropper's perspective, the exchange would look like:
+From an eavesdropper's perspective (e.g. anyone else in the Discord channel), the exchange would look like:
 ```
 initiator: NuNLd17tzFRj/ugNq/m4YejELXW70PdjCqjOMPCvb24=
 responder: H5mqb3KCYSs3cjmaIuXmhsS0vEi+vls10XtB8m50b0z9i3Byb7/d7GmCB/ooyI9j
