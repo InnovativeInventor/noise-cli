@@ -12,11 +12,13 @@ def main(protocol_name: str = "Noise_NN_25519_ChaChaPoly_SHA256"):
 
     print("Handshake response (send this):", base64.b64encode(proto.write_message()).decode())
 
+    print("Secure channel established (once you send the handshake response)!\n")
+
     while True:
         encrypted_message = input("\t Message to decrypt (enter here): ").strip()
         print("Received message:", proto.decrypt(base64.b64decode(encrypted_message.encode())).decode())
 
-        plaintext_message = input("Message to encrypt: ").strip()
+        plaintext_message = input("Response to encrypt: ").strip()
         print("\t Encrypted message (send this):", base64.b64encode(proto.encrypt(plaintext_message.encode())).decode())
 
 
