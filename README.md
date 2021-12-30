@@ -9,6 +9,8 @@ If you don't believe me, read the code (it's very short at 48 lines of code!).
   48 total
 ```
 
+`noise-cli` supports emojis and most unicode (excluding certain whitespace characters, such as `\n`).
+
 ## Installing deps
 ```
 pip install -r requirements.txt
